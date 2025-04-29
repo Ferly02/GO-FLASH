@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema default mengikuti Material Components tanpa override warna -->
+    <style name="Theme.KurirKilat" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Tidak perlu override warna, semua otomatis -->
+    </style>
+
+</resources>

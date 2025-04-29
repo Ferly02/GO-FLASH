@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Ywhite">#FDDDDD</color>
+    <color name="Button1">#000000</color>
+    <color name="Button2">#333333</color>
+    <color name="Button3">#2196F3</color>
+    <color name="Button4">#1976D2</color>
+    <color name="font1">#2A2A2A</color>
+    <color name="phone_button_start">#FF5722</color>
+    <color name="phone_button_end">#FF7043</color>
+    <color name="NavSelected">#B9F5D3</color>
+    <color name="NavUnselected">#333333</color>
+    <color name="NavSelectedBackground">#50c878</color>
+
+</resources>

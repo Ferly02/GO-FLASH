@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1097057047913",
+    "project_id": "kurir-kilat",
+    "storage_bucket": "kurir-kilat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097057047913:android:21e31597e98473599f19f8",
+        "android_client_info": {
+          "package_name": "com.example.kurirkilat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097057047913-2d36h9jmbmpph5mgcbjskg4k5k9saif7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kurirkilat",
+            "certificate_hash": "c106fd7eec2e6c73d7c4a19bf7f8755c46f8116a"
+          }
+        },
+        {
+          "client_id": "1097057047913-68pm0m2e5n7fniert5sbkfcsm35722fe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyneWxHlerZUB5D5NoGT7PO6DaDm3Jjpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097057047913-68pm0m2e5n7fniert5sbkfcsm35722fe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

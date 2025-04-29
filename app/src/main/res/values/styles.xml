@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Di dalam res/values/styles.xml -->
+<resources>
+    <!-- Base application theme (yang sudah ada) -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Konfigurasi tema yang sudah ada -->
+    </style>
+
+    <!-- Style khusus untuk tombol telepon -->
+    <style name="PhoneButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="backgroundTint">#FF5722</item>
+        <item name="cornerRadius">25dp</item>
+        <item name="iconTint">#FFFFFF</item>
+        <item name="iconPadding">8dp</item>
+        <item name="iconGravity">textStart</item>
+    </style>
+</resources>

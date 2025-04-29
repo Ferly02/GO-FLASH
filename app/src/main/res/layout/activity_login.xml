@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Log In"
+        android:fontFamily="arial"
+        android:textColor="@color/font1"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvWelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvWelcome"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:text="Selamat datang kembali! 👋"
+        android:fontFamily="@font/calibri"
+        android:textColor="@color/font1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvWelcomeMessage"
+        android:text="Masukkan Email"
+        android:fontFamily="@font/hamon"
+        android:textColor="@color/font1"
+        android:textSize="16.43sp"
+        android:layout_marginBottom="8dp" />
+
+    <RelativeLayout
+        android:id="@+id/emailInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEmailLabel"
+        android:layout_marginBottom="24dp">
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:isCredential="true"
+            android:inputType="textEmailAddress"
+            android:hint="Masukkan Akun Email Anda"
+            android:layout_marginEnd="8dp"
+            android:textColor="#212121"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/ivEmailCheck"/>
+
+        <ImageView
+            android:id="@+id/ivEmailCheck"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_check_circle"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvPasswordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailInputLayout"
+        android:text="Masukkan password"
+        android:fontFamily="@font/hamon"
+        android:textColor="@color/font1"
+        android:textSize="16.43sp"
+        android:layout_marginBottom="8dp" />
+
+    <RelativeLayout
+        android:id="@+id/passwordInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPasswordLabel"
+        android:padding="0dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="password_toggle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="**************"
+                android:inputType="textPassword"
+                android:textColor="#212121"
+                android:isCredential="true"
+                android:textSize="16sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </RelativeLayout>
+
+        <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordInputLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="lupa password?"
+        android:fontFamily="@font/hamon"
+        android:textColor="@color/font1"
+        android:textSize="16.43sp" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/tvForgotPassword"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button_background"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/signUpLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun? "
+            android:textColor="#757575"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signUpLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="ATAU"
+        android:textColor="#757575"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btnGoogleSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button_background2"
+        android:text="Lanjutkan dengan Google"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:fontFamily="@font/calibri"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/ic_google"
+        android:layout_below="@id/tvOr"
+        android:drawablePadding="8dp"/>
+
+    <TextView
+        android:id="@+id/tvGuestLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="24dp"
+        android:text="Lanjutkan sebagai Tamu"
+        android:textColor="#757575"
+        android:textSize="16sp" />
+
+    <ProgressBar
+        android:id="@+id/progressLoading"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleLarge"
+        android:indeterminate="true" />
+</RelativeLayout>
