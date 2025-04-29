@@ -80,38 +80,38 @@ Repositori ini berisi seluruh aktivitas dan dokumentasi terkait proses perancang
 Berikut adalah storyboard utama dari alur pengguna dalam aplikasi GO-FLASH:
 
 ### 1. Status Pesanan
-![Status Pesanan](pic/storyboard/Status%20Pesanan.png)
+![Status Pesanan](pic//Status%20Pesanan.png)
 
 ### 2. Detail Pesanan
-![Detail Pesanan](pic/storyboard/detail%20pesanan.png)
+![Detail Pesanan](pic//detail%20pesanan.png)
 
 ### 3. Diproses
-![Diproses](pic/storyboard/diproses.png)
+![Diproses](pic//diproses.png)
 
 ### 4. Lacak Kurir
-![Lacak Kurir](pic/storyboard/lacak%20kurir.png)
+![Lacak Kurir](pic//lacak%20kurir.png)
 
 ### 5. Permintaan Pickup
-![Permintaan Pickup](pic/storyboard/permintaan%20pickup.png)
+![Permintaan Pickup](pic//permintaan%20pickup.png)
 
 ### 6. Pesanan Baru
-![Pesanan Baru](pic/storyboard/pesanan%20baru.png)
+![Pesanan Baru](pic//pesanan%20baru.png)
 
 ### 7. Pesanan Baru 1
-![Pesanan Baru 1](pic/storyboard/pesanan%20baru-1.png)
+![Pesanan Baru 1](pic//pesanan%20baru-1.png)
 
 ### 8. Profile Pengguna
-![Profile](pic/storyboard/profile.png)
+![Profile](pic//profile.png)
 
 ### 9. Riwayat Pengiriman
-![Riwayat Pengiriman](pic/storyboard/RIWAYAT%20PENGIRIMAN.png)
+![Riwayat Pengiriman](pic//RIWAYAT%20PENGIRIMAN.png)
 
 ### 10. Selesai
-![Selesai](pic/storyboard/selesai.png)
+![Selesai](pic//selesai.png)
 
 ### 11. Layanan Customer Service
-![Layanan CS](pic/storyboard/layanan%20cs.png)
-![Layanan CS (versi 1)](pic/storyboard/layanan%20cs-1.png)
+![Layanan CS](pic//layanan%20cs.png)
+![Layanan CS (versi 1)](pic//layanan%20cs-1.png)
 
 ---
 
