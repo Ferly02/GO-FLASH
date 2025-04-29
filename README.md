@@ -71,7 +71,7 @@ Repositori ini berisi seluruh aktivitas dan dokumentasi terkait proses perancang
 | **Figma** | Desain antarmuka dan prototyping   |
 | **Trello**| Manajemen tugas dan kolaborasi tim |
 
-🔗 Trello Board: [Klik di sini](https://trello.com/) *(ganti dengan link Trello sebenarnya)*
+🔗 Trello Board: [Klik di sini](https://trello.com/invite/b/67d12ded6df39be85f4c10dd/ATTI5cd6b2d460ea020cec3cc93520b2d8c67BB03056/pemrograman-mobile) *(ganti dengan link Trello sebenarnya)*
 
 ---
 
